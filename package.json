@@ -1,0 +1,32 @@
+{
+  "name": "lambirou-vscode-ionic-pack",
+  "displayName": "Ionic Workspace Extension Pack",
+  "description": "Visual Studio Code extension pack for Ionic Workspace.",
+  "version": "1.0.0",
+  "publisher": "lambirou",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lambirou/lambirou-vscode-ionic-pack"
+  },
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#0F3D5F",
+    "theme": "light"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "keywords": [
+    "ionic"
+  ],
+  "extensionPack": [
+    "ionic.ionic",
+    "msjsdiag.cordova-tools",
+    "vadimcn.vscode-lldb",
+    "sswg.swift-lang",
+    "lambirou.lambirou-vscode-java-pack"
+  ]
+}
